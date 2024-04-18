@@ -24,6 +24,8 @@
 	<color name="rectangle_32_color">#41406F</color>
 	<color name="shape_color">#2B312F</color>
 	<color name="add_color">#F2F2F2</color>
+	<color name="update_color">#F2F2F2</color>
 	<color name="delete_color">#B31D1D</color>
 	<color name="rectangle_25_color">#ffffff</color>
+	<color name="_bg__notifications_color">#FFFFFF</color>
 </resources>

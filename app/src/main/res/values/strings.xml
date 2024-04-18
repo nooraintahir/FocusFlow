@@ -2,6 +2,11 @@
 <resources>
 	<!-- task_card___add strings -->
 
+	<string name="calendar_string">Notifications</string>
+	<string name="task_1_string">HELLO THIS IS A NOTIFICATION</string>
+	<string name="task_1_ek1_string">HELLO THIS IS A NOTIFICATION</string>
+	<string name="task_1_ek2_string">HELLO THIS IS A NOTIFICATION</string>
+	<string name="task_1_ek3_string">HELLO THIS IS A NOTIFICATION</string>
 	<string name="app_name">Page 1</string>
 	<string name="ek_img_content">ExportKit Image</string>
 	<string name="_00_00_am_string">00:00 AM</string>
@@ -23,4 +28,7 @@
 	<string name="add_string">Add</string>
 	<string name="delete_string">Delete</string>
 	<string name="add_event_string">Add Event</string>
+	<string name="assigned_to_string">Assigned to</string>
+	<string name="add_task_string">Add Task</string>
+	<string name="update_string">Update</string>
 </resources>
