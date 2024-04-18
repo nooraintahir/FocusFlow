@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- task_card___add strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="_00_00_am_string">00:00 AM</string>
+	<string name="_50__string">50%</string>
+	<string name="enter_title____string">Enter Title...</string>
+	<string name="_10_00___10_30_am_string">10:00 - 10:30 am</string>
+	<string name="office_string">Office</string>
+	<string name="don_t_wear_the_pink_tie__string">Dont wear the pink tie.</string>
+	<string name="_24th_february_2024_string">24th February 2024</string>
+	<string name="notes__if_any__string">Notes (if any)</string>
+	<string name="date_string">Date</string>
+	<string name="time_string">Time</string>
+	<string name="on_string">On</string>
+	<string name="notification_string">Notification</string>
+	<string name="location_string">Location</string>
+	<string name="completed_string">Completed</string>
+	<string name="memo_color_string">Memo color</string>
+	<string name="task_string">Task</string>
+	<string name="add_string">Add</string>
+	<string name="delete_string">Delete</string>
+	<string name="add_event_string">Add Event</string>
+</resources>
