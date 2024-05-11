@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/squiggle_top"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:src="@drawable/login_squiggle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/login_star"
+        android:layout_above="@+id/login_txt"
+        android:layout_marginLeft="170dp"
+        android:layout_marginBottom="-30dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/login_txt"
+        android:layout_below="@id/squiggle_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="20dp"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#000000">
+    </TextView>
+
+    <TextView
+        android:id="@+id/email_txt"
+        android:layout_below="@id/login_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:textSize="26sp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/email_edittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_txt"
+        android:layout_marginLeft="41dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter email"
+        android:textSize="26sp"
+        android:textColorHint="#989898">
+    </EditText>
+
+    <TextView
+        android:id="@+id/pwd_txt"
+        android:layout_below="@id/email_edittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/pwd_edittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pwd_txt"
+        android:layout_marginLeft="41dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter password"
+        android:textSize="26sp"
+        android:textColorHint="#989898"
+        android:inputType="textPassword">
+    </EditText>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="240dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/pwd_edittxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Login"
+        android:textSize="18sp"
+        android:backgroundTint="#C56F1F">
+    </Button>
+    
+    <Button
+        android:id="@+id/forgotpwd_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_btn"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFFFFF"
+        android:text="Forgot password?"
+        android:textColor="#C56F1F"
+        android:textSize="17sp">
+    </Button>
+
+    <LinearLayout
+        android:id="@+id/signup_btn"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:text="Don’t have an account?"
+            android:textColor="#78290F"
+            android:textSize="17sp"
+            android:layout_marginRight="6dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:text="Sign Up!"
+            android:textColor="#78290F"
+            android:textSize="17sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>
