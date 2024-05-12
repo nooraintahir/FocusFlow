@@ -27,11 +27,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun checkUserAndNavigate() {
         val currentUser = firebaseAuth.currentUser
-        val intent = //if (currentUser != null) {
-//            Intent(this, MainPage::class.java)
-//        } else {
+        val intent = if (currentUser != null) {
+            Intent(this, MonthlyOverview::class.java)
+        } else {
             Intent(this, LoginPg::class.java)
-//        }
+        }
         startActivity(intent)
         finish()
     }

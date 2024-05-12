@@ -40,7 +40,7 @@ class LoginPg : AppCompatActivity() {
             if (email.isNotEmpty() && pwd.isNotEmpty()){
                 firebaseAuth.signInWithEmailAndPassword(email, pwd).addOnCompleteListener{
                     if (it.isSuccessful){
-                        val intent = Intent(this, MainPg::class.java)
+                        val intent = Intent(this, TodayView::class.java)
                         startActivity(intent)
                     }
                     else {

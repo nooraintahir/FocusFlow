@@ -52,7 +52,7 @@ class SignUp : AppCompatActivity() {
                             userData["address"] = address
                             database.child(it).setValue(userData).addOnSuccessListener {
                                 Toast.makeText(this, "Successfully signed up", Toast.LENGTH_SHORT).show()
-                                startActivity(Intent(this, MainPg::class.java))
+                                startActivity(Intent(this, MonthlyOverview::class.java))
                                 finish() // Finish the current activity
                             }.addOnFailureListener { e ->
                                 Toast.makeText(this, "Failed to save user data: ${e.message}", Toast.LENGTH_SHORT).show()
