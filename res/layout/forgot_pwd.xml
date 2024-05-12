@@ -74,7 +74,7 @@
     </EditText>
 
     <Button
-        android:id="@+id/verify_btn"
+        android:id="@+id/reset_btn"
         android:layout_width="240dp"
         android:layout_height="57dp"
         android:layout_below="@id/verification_edittxt"
