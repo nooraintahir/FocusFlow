@@ -19,9 +19,9 @@ class LoginPg : AppCompatActivity() {
 
         var forgotbtn = findViewById<Button>(R.id.forgotpwd_btn)
         forgotbtn.setOnClickListener {
-//            startActivity(
-//                Intent(this, ForgotPwd::class.java)
-//            );
+            startActivity(
+                Intent(this, ForgotPwd::class.java)
+            );
         }
 
         var signup = findViewById<LinearLayout>(R.id.signup_btn)
