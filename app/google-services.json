@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "128966878954",
+    "project_id": "focus-flow-4a092",
+    "storage_bucket": "focus-flow-4a092.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128966878954:android:7abbc655e1136b0f8ad993",
+        "android_client_info": {
+          "package_name": "com.smd.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9xk3KRr5dhkY91hbRQtdE8_F9Uk2V6Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

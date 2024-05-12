@@ -22,8 +22,14 @@
         </activity>
         <activity android:name=".LoginPg" />
         <activity android:name=".SignUp" />
+        <activity android:name=".ResetPwd" />
+        <activity android:name=".ForgotPwd" />
+        <activity android:name=".VerifyPhone" />
         <activity android:name=".MonthlyOverview" />
         <activity android:name=".TodayView" />
+        <activity android:name=".TeamsPg" />
+        <activity android:name=".Notifs" />
+        <activity android:name=".MyProfile" />
     </application>
 
 </manifest>
